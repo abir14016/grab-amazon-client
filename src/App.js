@@ -1,9 +1,13 @@
 import './App.css';
+import { Routes, Route, Link } from "react-router-dom";
+import Home from './Pages/HomePage/Home/Home';
 
 function App() {
   return (
     <div className="App">
-      <button className='btn btn-primary'>Hello world</button>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+      </Routes>
     </div>
   );
 }
