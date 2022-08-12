@@ -10,7 +10,7 @@ module.exports = {
         sm: '2rem',
         lg: '4rem',
         xl: '5rem',
-        '2xl': '6rem',
+        '2xl': '13rem',
       },
     },
   },
@@ -19,7 +19,7 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#00C177",
+          primary: "#00c177",
           secondary: "#C3C7C8",
           accent: "#C8EDF4",
           neutral: "#3d4451",

@@ -3,11 +3,13 @@ import Partners from '../Partners/Partners';
 import './Home.css';
 import TempoIncome from '../TempoIncome/TempoIncome';
 import Banner from '../Banner/Banner';
+import MakeMoney from '../MakeMoney/MakeMoney';
 
 const Home = () => {
     return (
         <div className='body-background'>
             <Banner></Banner>
+            <MakeMoney></MakeMoney>
             <TempoIncome></TempoIncome>
             <Partners></Partners>
         </div>
