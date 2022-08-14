@@ -28,7 +28,7 @@ const TempoIncome = () => {
                 </div>
             </div>
             <div className='grid grid-cols-4 lg:grid-cols-4 md:grid-cols-4 gap-7'>
-                <Link to='#'>
+                <Link to='/platfom'>
                     <div className='link link-hover decoration-primary'>
                         <img src={home1} alt="homeImage" />
                         <p>
@@ -36,7 +36,7 @@ const TempoIncome = () => {
                         </p>
                     </div>
                 </Link>
-                <Link to='#'>
+                <Link to='/vipMember'>
                     <div className='link link-hover decoration-primary'>
                         <img src={home2} alt="homeImage" />
                         <p>
@@ -44,7 +44,7 @@ const TempoIncome = () => {
                         </p>
                     </div>
                 </Link>
-                <Link to='#'>
+                <Link to='/cooperation'>
                     <div className='link link-hover decoration-primary'>
                         <img src={home3} alt="homeImage" />
                         <p>
@@ -52,7 +52,7 @@ const TempoIncome = () => {
                         </p>
                     </div>
                 </Link>
-                <Link to='#'>
+                <Link to='/certificate'>
                     <div className='link link-hover decoration-primary'>
                         <img src={home4} alt="homeImage" />
                         <p>
