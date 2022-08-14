@@ -5,6 +5,7 @@ import TempoIncome from '../TempoIncome/TempoIncome';
 import Banner from '../Banner/Banner';
 import MakeMoney from '../MakeMoney/MakeMoney';
 import Membership from '../Membership/Membership';
+import TempoCommission from '../TempoCommission/TempoCommission';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <MakeMoney></MakeMoney>
             <TempoIncome></TempoIncome>
             <Membership></Membership>
+            <TempoCommission></TempoCommission>
             <Partners></Partners>
         </div>
     );
