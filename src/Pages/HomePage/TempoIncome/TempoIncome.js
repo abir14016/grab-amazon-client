@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import home1 from '../../../assets/temporaryIncome/home1.png';
 import home2 from '../../../assets/temporaryIncome/home2.png';
 import home3 from '../../../assets/temporaryIncome/home3.png';
@@ -27,18 +28,38 @@ const TempoIncome = () => {
                 </div>
             </div>
             <div className='grid grid-cols-4 lg:grid-cols-4 md:grid-cols-4 gap-7'>
-                <div>
-                    <img src={home1} alt="homeImage" />
-                </div>
-                <div>
-                    <img src={home2} alt="homeImage" />
-                </div>
-                <div>
-                    <img src={home3} alt="homeImage" />
-                </div>
-                <div>
-                    <img src={home4} alt="homeImage" />
-                </div>
+                <Link to='/platfom'>
+                    <div className='link link-hover decoration-primary'>
+                        <img src={home1} alt="homeImage" />
+                        <p>
+                            <small className='text-primary font-bold text-xs'>PLATFOM</small>
+                        </p>
+                    </div>
+                </Link>
+                <Link to='/vipMember'>
+                    <div className='link link-hover decoration-primary'>
+                        <img src={home2} alt="homeImage" />
+                        <p>
+                            <small className='text-primary font-bold text-xs'>VIP MEMBER</small>
+                        </p>
+                    </div>
+                </Link>
+                <Link to='/cooperation'>
+                    <div className='link link-hover decoration-primary'>
+                        <img src={home3} alt="homeImage" />
+                        <p>
+                            <small className='text-primary font-bold text-xs'>COOPERATION</small>
+                        </p>
+                    </div>
+                </Link>
+                <Link to='/certificate'>
+                    <div className='link link-hover decoration-primary'>
+                        <img src={home4} alt="homeImage" />
+                        <p>
+                            <small className='text-primary font-bold text-xs'>CERTIFICATE</small>
+                        </p>
+                    </div>
+                </Link>
             </div>
         </div>
     );
