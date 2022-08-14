@@ -5,11 +5,11 @@ import platfom from '../../../../assets/temporaryIncome/platfom/platfom.png'
 
 const Platfom = () => {
     return (
-        <div className='body-background'>
+        <div className='background-color'>
             {/* NavBar Start */}
             <div className="navbar bg-white">
                 <div>
-                    <Link className='ml-6' to='/tempoIncome'>return</Link>
+                    <Link className='ml-6' to='/'>return</Link>
                 </div>
                 <div className='mx-auto'>
                     <h6 className='uppercase'>platfom</h6>
