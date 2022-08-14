@@ -1,0 +1,82 @@
+[
+  {
+    "level": "Free",
+    "image": "https://i.ibb.co/4Y3GH7L/vip-image.png",
+    "reqInvestment": 0.0,
+    "commission": 15,
+    "order": 3,
+    "isCurrent": true,
+    "bgStart": "#01e60d",
+    "bgEnd": "#0809e8"
+  },
+  {
+    "level": "VIP1",
+    "image": "https://i.ibb.co/4Y3GH7L/vip-image.png",
+    "reqInvestment": 20.0,
+    "commission": 25.2,
+    "order": 6,
+    "isCurrent": false,
+    "bgStart": "#f30c04",
+    "bgEnd": "#feef01"
+  },
+  {
+    "level": "VIP2",
+    "image": "https://i.ibb.co/4Y3GH7L/vip-image.png",
+    "reqInvestment": 50.0,
+    "commission": 35.4,
+    "order": 9,
+    "isCurrent": false,
+    "bgStart": "#fe560f",
+    "bgEnd": "#feef01"
+  },
+  {
+    "level": "VIP3",
+    "image": "https://i.ibb.co/4Y3GH7L/vip-image.png",
+    "reqInvestment": 200.0,
+    "commission": 45.6,
+    "order": 12,
+    "isCurrent": false,
+    "bgStart": "#770efd",
+    "bgEnd": "#06f5e1"
+  },
+  {
+    "level": "VIP4",
+    "image": "https://i.ibb.co/4Y3GH7L/vip-image.png",
+    "reqInvestment": 700.0,
+    "commission": 55.8,
+    "order": 15,
+    "isCurrent": false,
+    "bgStart": "#c6f909",
+    "bgEnd": "#4498af"
+  },
+  {
+    "level": "VIP5",
+    "image": "https://i.ibb.co/4Y3GH7L/vip-image.png",
+    "reqInvestment": 3000.0,
+    "commission": 66,
+    "order": 30,
+    "isCurrent": false,
+    "bgStart": "#79f6f6",
+    "bgEnd": "#24282c"
+  },
+  {
+    "level": "VIP6",
+    "image": "https://i.ibb.co/4Y3GH7L/vip-image.png",
+    "reqInvestment": 4000.0,
+    "commission": 76.2,
+    "order": 40,
+    "isCurrent": false,
+    "bgStart": "#5e05a3",
+    "bgEnd": "#0893fa"
+  },
+  {
+    "level": "VIP7",
+    "image": "https://i.ibb.co/4Y3GH7L/vip-image.png",
+    "reqInvestment": 5000.0,
+    "commission": 110.64,
+    "order": 50,
+    "isCurrent": false,
+    "bgStart": "#fc062f",
+    "bgEnd": "#05fb28"
+  }
+]
