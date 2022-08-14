@@ -27,7 +27,7 @@ const Platfom = () => {
                         <p>Welcome to our <span className='text-primary'>GRAB AMAZON</span> application as a third-party smart order matching platform that has partnered with international online shopping platforms  Amazon</p>
                         <p className='mt-4'>Stores using our smart shopping system can determine the amount of sales and credit limits on the platform. Real users need to provide their address, phone number and smart order information, and after combining it with existing orders, merchants will pay our users a commission at the end of the order.</p>
                     </div>
-                    <div className='px-3 pb-6 pt-3'>
+                    <div className='px-3 pb-6 pt-3 flex justify-center'>
                         <img src={platfom} alt="pltfomImg" />
                     </div>
                 </div>
