@@ -3,7 +3,7 @@ import React from 'react';
 const SingleTempoCommission = ({ singleTempoCommission }) => {
     const { userName, earning } = singleTempoCommission;
     return (
-        <div className='shadow-lg flex py-4 rounded-2xl mt-4 items-end scroll-text'>
+        <div className='shadow-lg flex py-4 rounded-2xl mt-4 items-end scroll-text bg-white'>
             <div className='flex justify-center w-1/4'>
                 <p className='font-semibold'>{userName}</p>
             </div>
