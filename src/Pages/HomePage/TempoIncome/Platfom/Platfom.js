@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Platfom.css';
-import platfom from '../../../../assets/temporaryIncome/platfom/platfom.png'
+import platfom from '../../../../assets/temporaryIncome/platfom/platfom.png';
 
 const Platfom = () => {
     return (
