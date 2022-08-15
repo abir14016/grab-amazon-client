@@ -18,7 +18,7 @@ const Membership = () => {
             .then(res => res.json())
             .then(data => setMemberships(data))
     }, []);
-    console.log(memberships[1]);
+
     return (
         <div className='container'>
             <h2 className='text-left font-semibold text-md mb-4'>MEMBERSHIP</h2>
@@ -51,7 +51,7 @@ const Membership = () => {
                             <img src={memberships[1]?.image} alt="level" />
                         </div>
                         <div className='pl-3'>
-                            <h1 className='text-xl'>{memberships[0]?.level}</h1>
+                            <h1 className='text-xl'>{memberships[1]?.level}</h1>
                             <p className='text-xs mb-2 opacity-70'>Required Investment ${memberships[1]?.reqInvestment}</p>
                             <p className='text-xs opacity-70'>Commission {memberships[1]?.commission}% | {memberships[1]?.order} Orders</p>
                         </div>
@@ -114,7 +114,7 @@ const Membership = () => {
                             <img src={memberships[4]?.image} alt="level" />
                         </div>
                         <div className='pl-3'>
-                            <h1 className='text-xl'>{memberships[3]?.level}</h1>
+                            <h1 className='text-xl'>{memberships[4]?.level}</h1>
                             <p className='text-xs mb-2 opacity-70'>Required Investment ${memberships[4]?.reqInvestment}</p>
                             <p className='text-xs opacity-70'>Commission {memberships[4]?.commission}% | {memberships[4]?.order} Orders</p>
                         </div>
@@ -135,7 +135,7 @@ const Membership = () => {
                             <img src={memberships[5]?.image} alt="level" />
                         </div>
                         <div className='pl-3'>
-                            <h1 className='text-xl'>{memberships[3]?.level}</h1>
+                            <h1 className='text-xl'>{memberships[5]?.level}</h1>
                             <p className='text-xs mb-2 opacity-70'>Required Investment ${memberships[5]?.reqInvestment}</p>
                             <p className='text-xs opacity-70'>Commission {memberships[5]?.commission}% | {memberships[5]?.order} Orders</p>
                         </div>
